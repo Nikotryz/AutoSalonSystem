@@ -1,0 +1,28 @@
+
+# Logs
+logs/*.log
+!logs/important.log
+
+# Temp files
+temp/
+*.tmp
+*.bak
+
+# C# build artifacts
+*.exe
+*.dll
+*.obj
+*.pdb
+
+# IDE settings
+.vscode/
+*.user
+*.suo
+
+# Build folders
+bin/
+obj/
+
+# Allow config files
+!Config/
+!Config/*.json
